@@ -1,0 +1,25 @@
+.Academics{
+    height: 800px;
+    width: 100%;
+    background-color: greenyellow;
+    background-image: url(../../assets/college-students.jpg);
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.Academics h1{
+    font-size: 100px;
+    color: white;
+}
+
+.Academicsimg{
+ 
+    height: 100px;
+}
+
+.footer1{
+    margin-top: 0px;
+}

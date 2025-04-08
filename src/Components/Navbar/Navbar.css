@@ -1,62 +1,74 @@
-.navbar {
+
+.navbar{
     height: 100px;
     width: 100%;
-    background-color: rgb(18, 54, 107) ;
+    background-color: #003a63;
     display: flex;
-    align-items: center;
     color: white;
-    font-size: 20px;
+    align-items: center;
+    gap: 10px;
     justify-content: space-between;
     position: fixed;
-    z-index: 1000;
+   
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
 }
 
 .navbar img{
     height: 70px;
-    width: 70px;
     margin-left: 20px;
-    margin: 15px;
-}
 
-.navbar ul{
+}
+/* Navbar menu bar */
+.menu {
     display: flex;
+    
+}
+.menu ul li {
     list-style: none;
-    gap: 40px;
-    font-size: 16px;
-    font-weight: 600;
-    margin: auto;
-    justify-content: end;
+    gap: 30px;
 }
 
-.navbar i{
-    
-    margin-right: 20px;
-}
-
-.logo{
+.menu ul {
     display: flex;
-    align-items: center;
-}
-
-.logo p{
-  
-    font-size: 21px;
-    font-weight: 600;
-    color: rgb(248, 203, 54);
-}
-
-.menu li{
-    display: inline;
-    margin: 10px;
-    border-bottom: 2px solid transparent; 
-    transition: border-bottom 0.55s ease-in;
-}
-.menu li:hover{
-    border-bottom: 2px solid rgb(248, 203, 54);
+    gap: 40px;
+    margin: auto;
     
 }
 
-.menu li a{
-    text-decoration: none;
-    color: white;
+.menu  {
+    font-size: 22px;
 }
+.menu li {
+    border-bottom:  3px solid  #003a63;
+    transition: border-bottom 0.45s ease-in;
+}
+
+.menu li:hover{
+    border-bottom: 3px solid white;
+    
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+ 
+/* navbar search icon */
+.search-btn i {
+    margin-right: 30px;
+    font-size: 30px;
+    ;
+}
+
+
